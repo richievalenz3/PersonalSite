@@ -44,15 +44,13 @@ a {
 input {
     display: block;
     margin: 20px 0 0;
-    width: 160px;
+    padding: 10px 15px;
+    border: none;
+    border-bottom: 1px solid var(--text);
     box-sizing: border-box;
-    padding: 4px 8px;
-    border-width: 1px; 
-    border-style: solid;
-    border-color:  var(--text);
     color: var(--text);
     background: none;
-    border-radius: var(--image);
+    border-radius: 5px;
     font-family: var(--font);
 }
 
@@ -62,7 +60,7 @@ input {
 
 button {
     border-radius: var(--image);
-    padding: 5px 10px;
+    padding: 10px 15px;
     border: none;
     background: var(--text);
     color: var(--background);
@@ -72,5 +70,12 @@ button {
     margin: 8px 0;
     cursor: pointer;
     font-family: var(--font);
-    width: 160px;
+
+}
+
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
